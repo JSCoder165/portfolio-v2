@@ -1,0 +1,32 @@
+h1 {
+  color: white;
+}
+.header{
+  background-color: blue;
+  display: flex;
+  justify-content: baseline;
+}
+
+.site-description{
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: first baseline;
+}
+.grid{
+  display: flex;
+  flex-wrap: column;
+  justify-content: space-evenly;
+}
+.footer{
+  display: flex;
+  justify-content: flex-end;
+}
+p,h2{
+  text-align: center;
+}
